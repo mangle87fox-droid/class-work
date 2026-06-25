@@ -16,7 +16,7 @@ void printHp(const int* hp) {
 }
 bool isAlive(const int* hp) {
     if (hp == nullptr) return false;
-    return *hp > 0;
+    return *hp >= 0;
 }
 int main() {
     int hp = 100;
